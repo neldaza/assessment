@@ -12,6 +12,9 @@ class Man {
       this.isMouthOpen = 'yes';
       return `My mouth is open now Doctor ${person.lastName}!`;
     } else {
+      if (this.isMouthOpen === 'yes') {
+        this.isMouthOpen = 'no';
+      }
       return "I'm not opening my mouth, you're not a doctor";
     }
   }
