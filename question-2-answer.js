@@ -9,7 +9,7 @@ class Man {
   handleExternalMouthOpening(person) {
     if (person.profession === 'doctor') {
       this.isMouthOpen = 'yes';
-      return 'My mouth is open now Doctor!';
+      return `My mouth is open now Doctor ${person.lastName}!`;
     } else {
       return "I'm not opening my mouth, you're not a doctor";
     }
