@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 class Man {
-  constructor(firstName, lastName, mouthOpen) {
+  constructor(firstName, lastName, profession) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.isMouthOpen = 'no';
+    this.profession = profession;
   }
 
   handleExternalMouthOpening(person) {
@@ -25,17 +26,9 @@ class Man {
   }
 }
 
-class Doctor {
-  constructor(firstName, lastName, professon) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.profession = 'doctor';
-  }
-}
-
 const newMan = new Man('John', 'Smith');
-const newDoctor = new Doctor('Rick', 'Smith');
-const randomGuy = new Man('Joe', 'Johnson');
+const newDoctor = new Man('Rick', 'Smith', 'doctor');
+const randomGuy = new Man('Joe', 'Johnson', 'plumber');
 
 // newMan.handleExternalMouthOpening(newDoctor);
 // newMan.handleExternalMouthOpening(randomGuy);
