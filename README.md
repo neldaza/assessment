@@ -10,7 +10,7 @@ limit 3
 
 ```
 
-# Question 2 Answer 
+# Question 2 Answer + Console Image
 ```
 class Man {
   constructor(firstName, lastName, profession) {
@@ -47,13 +47,15 @@ const newDoctor = new Man('Rick', 'Smith', 'doctor');
 const randomGuy = new Man('Joe', 'Johnson', 'plumber');
 
 ```
+![question-2-answer-image](https://user-images.githubusercontent.com/88061673/159403634-96dce156-cb32-4dc1-b148-c187eea73a2d.png)
 
 
 # Question 3 Demo
 
 
+https://user-images.githubusercontent.com/88061673/159384163-d248d5d9-92dd-4538-b355-4e8e72b95bce.mov
 
 
-https://user-images.githubusercontent.com/88061673/159382851-b868934a-8721-465c-9fc5-becfbfb57de6.mov
+
 
 
