@@ -1,0 +1,11 @@
+.inputs {
+  display: block;
+}
+
+.submit-button {
+  margin-block-start: 1em;
+}
+
+.hidden {
+  visibility: hidden;
+}
