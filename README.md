@@ -52,8 +52,9 @@ const randomGuy = new Man('Joe', 'Johnson', 'plumber');
 # Question 3 Demo
 
 
+https://user-images.githubusercontent.com/88061673/159384163-d248d5d9-92dd-4538-b355-4e8e72b95bce.mov
 
 
-https://user-images.githubusercontent.com/88061673/159382851-b868934a-8721-465c-9fc5-becfbfb57de6.mov
+
 
 
