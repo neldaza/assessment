@@ -61,10 +61,13 @@ export default class App extends React.Component {
           <div className='column'>
             <form onSubmit={handleSubmit}>
               <h3>Type in your course choices</h3>
+              <p>Choice A:</p>
               <input className="inputs" onChange={handleChange} type="text" name="choiceA"
               value={this.state.choiceA}/>
+              <p>Choice B:</p>
               <input className="inputs" onChange={handleChange} type="text" name="choiceB"
               value={this.state.choiceB}/>
+              <p>Choice C:</p>
               <input className="inputs" onChange={handleChange} type="text" name="choiceC"
               value={this.state.choiceC}/>
               <input className="submit-button" type="submit" value="Submit" />
