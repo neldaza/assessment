@@ -53,5 +53,7 @@ const randomGuy = new Man('Joe', 'Johnson', 'plumber');
 
 
 
-https://user-images.githubusercontent.com/88061673/159382483-5f70e9fb-2de0-4a24-8b5f-29994523aab2.mov
+
+https://user-images.githubusercontent.com/88061673/159382851-b868934a-8721-465c-9fc5-becfbfb57de6.mov
+
 
